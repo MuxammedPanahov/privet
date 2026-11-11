@@ -3,7 +3,7 @@
   "name": "Привет",
   "createdAt": "2026-11-11T05:04:38.468Z",
   "filename": "10d3e3b2-6d45-4001-a5f5-f31030164ac8.json",
-  "geminiStarted": false,
+  "geminiStarted": true,
   "messages": [
     {
       "id": "729368dd-7199-4189-bbb8-020d02b74301",
@@ -15,6 +15,42 @@
       "parent_message_id": null,
       "created_at": "2026-11-11T05:05:35.090Z",
       "sender": "ios",
+      "is_cancelled": false
+    },
+    {
+      "id": "31dc2062-054e-40cf-8cb4-7f56b4fb3f2b",
+      "role": "agent",
+      "content": "Привет! Чем могу помочь? Что планируем создать или реализовать?",
+      "status": "completed",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "729368dd-7199-4189-bbb8-020d02b74301",
+      "created_at": "2026-11-11T05:05:55.692Z",
+      "sender": "macOS",
+      "is_cancelled": false
+    },
+    {
+      "id": "90cf33ef-0def-4424-addb-993692aba278",
+      "role": "user",
+      "content": "Ты не знаешь русский ?",
+      "status": "pending",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-11-11T05:05:55.697Z",
+      "sender": "ios",
+      "is_cancelled": false
+    },
+    {
+      "id": "820b1cca-2daf-4063-b38a-3da027b9ca39",
+      "role": "agent",
+      "content": "Прекрасно знаю и свободно на нём общаюсь! 🙂 \n\nМожем продолжать на русском. Расскажите, над каким проектом или задачей хотите поработать?",
+      "status": "completed",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "90cf33ef-0def-4424-addb-993692aba278",
+      "created_at": "2026-11-11T05:06:10.139Z",
+      "sender": "macOS",
       "is_cancelled": false
     }
   ]
